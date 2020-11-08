@@ -1,5 +1,8 @@
 ︠130d8593-a80b-48aa-b7b5-abfcc388e307i︠
 %md(hide=True)
+
+* link para CoCalc https://cocalc.com/873e321f-329a-4113-bb53-ea3ee273bef3/raw/2020-10-25-194317.sagews
+
 # **SymPyLab**
 
 SymPy’s documentation
@@ -16,7 +19,7 @@ SymPy’s documentation
 
 <img src='Screenshot 2020-11-05 154408.png' style="max-width:100%">
 <img src='imagen2.png' style="max-width:100%">
-︡1ab0e67a-a298-4edb-b7c0-51def0096999︡{"done":true,"md":"# **SymPyLab**\n\nSymPy’s documentation\n\n* https://docs.sympy.org/latest/index.html\n\n## **SymPy’s polynomials**\n\n* https://docs.sympy.org/latest/modules/polys/basics.html#polynomials\n\n* (x-1)(x-2)(x-3)(x-4)(x-5)(x-6)(x-7)(x-8)(x-9)(x-10) = x^10 - 55x^9 + 1320x^8 - 18150x^7 + 157773x^6 - 902055x^5 + 3416930x^4 - 8409500x^3 + 12753576x^2 - 10628640x + 3628800\n\n* (x^10-55x^9+1320x^8-18150x^7+157773x^6-902055x^5+3416930x^4-8409500x^3+12753576x^2-10628640x+3628800) / (x-1) = x^9 - 4x^8 + 1266x^7 - 16884x^6 + 140889x^5 - 761166x^4 + 2655764x^3 - 5753736x^2 + 6999840x - 3628800\n\n<img src='Screenshot 2020-11-05 154408.png' style=\"max-width:100%\">\n<img src='imagen2.png' style=\"max-width:100%\">"}
+︡1ab0e67a-a298-4edb-b7c0-51def0096999︡{"done":true,"md":"\n* link para CoCalc https://cocalc.com/873e321f-329a-4113-bb53-ea3ee273bef3/raw/2020-10-25-194317.sagews\n\n# **SymPyLab**\n\nSymPy’s documentation\n\n* https://docs.sympy.org/latest/index.html\n\n## **SymPy’s polynomials**\n\n* https://docs.sympy.org/latest/modules/polys/basics.html#polynomials\n\n* (x-1)(x-2)(x-3)(x-4)(x-5)(x-6)(x-7)(x-8)(x-9)(x-10) = x^10 - 55x^9 + 1320x^8 - 18150x^7 + 157773x^6 - 902055x^5 + 3416930x^4 - 8409500x^3 + 12753576x^2 - 10628640x + 3628800\n\n* (x^10-55x^9+1320x^8-18150x^7+157773x^6-902055x^5+3416930x^4-8409500x^3+12753576x^2-10628640x+3628800) / (x-1) = x^9 - 4x^8 + 1266x^7 - 16884x^6 + 140889x^5 - 761166x^4 + 2655764x^3 - 5753736x^2 + 6999840x - 3628800\n\n<img src='Screenshot 2020-11-05 154408.png' style=\"max-width:100%\">\n<img src='imagen2.png' style=\"max-width:100%\">"}
 ︠d7f19aef-daad-46c0-b97c-d1d750d338d7︠
 R.<x> = QQ[]
 p = x^10 - 55*x^9 + 1320*x^8 - 18150*x^7 + 157773*x^6 - 902055*x^5 + 3416930*x^4 - 8409500*x^3 + 12753576*x^2 - 10628640*x + 3628800
@@ -282,7 +285,7 @@ volume = (numpy.pi)^3
 result = {} 
 result = volume * accum / N
 print("Standard Monte Carlo result: {}".format(result))
-︡c77b27b9-634b-4e9d-af5b-d8d4decc47ff︡{"stdout":"Standard Monte Carlo result: 2.690978084454939\n"}︡{"done":true}
+︡e618ffba-d813-40d8-b6a5-1cddf43443e8︡{"stdout":"Standard Monte Carlo result: 2.477448264290742\n"}︡{"done":true}
 ︠800cdd9b-0743-4154-b924-295bf33fc48es︠
 import math
 import numpy
@@ -314,7 +317,7 @@ N = 1000
 seq = halton(2, N)
 '2D Halton sequence'
 list_plot(seq, color='blue')
-︡c0a75528-7384-4172-b0ab-da763d2443ce︡{"stdout":"'2D Halton sequence'\n"}︡{"file":{"filename":"/home/user/.sage/temp/project-873e321f-329a-4113-bb53-ea3ee273bef3/401/tmp_4m_4daxm.svg","show":true,"text":null,"uuid":"0cb73f5c-7a36-48a5-a3d1-9d42751105bb"},"once":false}︡{"done":true}
+︡7f67ed6a-fc28-46cd-9a82-f3c9eed80f9f︡{"stdout":"'2D Halton sequence'\n"}︡{"file":{"filename":"/home/user/.sage/temp/project-873e321f-329a-4113-bb53-ea3ee273bef3/402/tmp_opz7io4k.svg","show":true,"text":null,"uuid":"8e375d4a-230c-4d6a-8893-70b8d6bc579d"},"once":false}︡{"done":true}
 ︠dba47b6f-e9f5-4d3c-8db8-38a1b1ac0653s︠
 N = 10_000
 
